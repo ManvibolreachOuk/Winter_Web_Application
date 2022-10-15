@@ -1,0 +1,108 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    background-color: rgb(255, 255, 255);
+}
+.header{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    box-shadow: 0 4px 25px -22px black;   
+}
+.logo img{
+    height:60px;
+    width: 80px;
+    float: left;
+    margin-right: 50px;
+}
+.logo{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.navigation{
+    height: 50px;
+    font-size: 18px;
+}
+.navigation a{
+    height: 100%;
+    display: flex;
+    list-style: none;
+}
+.navigation a{
+    margin: 0px 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.navigation a{
+    color: #030101;
+
+}
+.navigation a:hover{
+    color: rgb(102, 206, 137);
+    
+}
+main {
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-cover{
+    height: 500px;
+    position: relative;
+    top: 85px;
+    background-image: url(1610069524177.jpg);
+    background-repeat: no-repeat;
+}
+.home {
+    text-align: right; 
+}
+.home :hover{
+    color:rgb(102, 206, 137);
+}
+.top{
+    background-color: gray;
+    text-align: center;
+    font-size:x-large;
+}
+.home2{
+    text-align: left;   
+}
+.home2 :hover {
+    color:rgb(102, 206, 137);
+}
+section {
+    float: left;
+    margin-right: 50px;
+}
+table {
+    width: 490px;
+    border: 0.5px solid black;
+    float: left;
+    height:45ex;
+}
+.centerimage{
+    text-align: center;
+    display: block;
+}
+.Gold {
+	background-color:rgb(200, 228, 230);
+}
+.Siliver {
+	background-color:rgb(105, 109, 109);
+}
+
+
+

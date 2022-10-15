@@ -1,0 +1,106 @@
+.pic
+{
+    width: 100%;
+    height:500px;
+    position: relative;
+    top: 18px;
+    background-image: url(default-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} 
+.navigation{
+    height: 50px;
+    font-size: 30px;
+}
+.navigation a{
+    height: 100%;
+    display: flex;
+    list-style: none;
+    
+}
+.navigation a{
+    margin: 0px 50px;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+}
+.navigation a{
+    color: #360cf3;
+
+}
+.navigation a:hover{
+    color: rgb(146, 165, 219);
+    
+}
+main {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: rgb(0, 0, 0);
+    font-family: "sans-serif", "Verdana";
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+legend {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:smaller;
+    color: #131212cc;
+    border: 1px solid #f8f4f5;
+    border-radius: 10px;
+    box-shadow: 3px 3px  #6b6a6a;
+    background-color:rgb(199, 229, 238);
+}
+fieldset {
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #141414;
+    padding: 10px;
+    background-color: #c9dfec;
+}
+#box {
+    color: palevioletred;
+    font-size: small;
+    background-color: whitesmoke;
+    font-weight: bolder;
+    box-shadow: 5px 5px 5px rgb(90, 63, 81);
+    font-variant: small-caps;
+}
+label {
+       
+    padding-left: 5px;
+    width: 200px;
+    float: left;
+    text-align: left;
+}
+fieldset {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #000000;
+    padding: 6px;
+}
+input{
+    padding-left: 12px;
+    margin-left: 12px;
+}
+.GenInfo label{
+    width: 600px;
+    text-align: left;
+}
+.GenInfo input{
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.submit{
+    padding: 10px;
+}
+.extra{
+    background-color: #126f7e;
+    color:aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.introend {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
